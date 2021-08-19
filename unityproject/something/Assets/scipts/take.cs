@@ -2,32 +2,28 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class take : MonoBehaviour
+public class camera : MonoBehaviour
 {
-    IEnumerator OnMouseDown()
+    public Camera ca;
+    private Ray ra;
+    private RaycastHit hit;
+
+    // Use this for initialization
+    void Start()
     {
-        Vector3 ScreenSpace = Camera.main.WorldToScreenPoint(transform.position);
-
-        Vector3 offset = transform.position - Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, ScreenSpace.z));
-
-        Debug.Log("down");
-
-        while (Input.GetMouseButton(0))
-        {
-            Vector3 curScreenSpace = new Vector3(Input.mousePosition.x, Input.mousePosition.y, ScreenSpace.z);
-            Vector3 CurPosition = Camera.main.ScreenToWorldPoint(curScreenSpace) + offset;
-            transform.position = CurPosition;
-            yield return new WaitForFixedUpdate();
-        }
 
     }
 
-    private void Update()
+    // Update is called once per frame
+    void Update()
     {
-        if()
+        if (Input.GetMouseButton(0))
         {
-
+            ra = ca.ScreenPointToRay(Input.mousePosition);
+            if (Physics.Raycast(ra, out hit))
+            {
+                hit.collider.gameObject.transform.position = ca.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, hit.collider.gameObject.transform.position.z));
+            }
         }
     }
 }
-

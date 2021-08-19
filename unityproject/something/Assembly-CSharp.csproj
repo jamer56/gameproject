@@ -61,7 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\scipts\Gravity.cs" />
     <Compile Include="Assets\scipts\PlayerMove.cs" />
-    <Compile Include="Assets\scipts\take.cs" />
+    <Compile Include="Assets\scipts\Take.cs" />
     <Compile Include="Assets\scipts\CameraMove.cs" />
   </ItemGroup>
   <ItemGroup>
