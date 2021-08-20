@@ -50,13 +50,16 @@ public class Take : MonoBehaviour
         }
         else
         {
-            print("out");
-            chickColl  =  false;
-            myObjArray = GameObject.FindGameObjectsWithTag("moveable");
-            for (int i = 0; i < myObjArray.Length; i++)
+            if (chickColl)
             {
-                myObjArray[i].GetComponent<Rigidbody>().useGravity = true;
-                print("run" + i);
+                print("out");
+                myObjArray = GameObject.FindGameObjectsWithTag("moveable");
+                for (int i = 0; i < myObjArray.Length; i++)
+                {
+                    myObjArray[i].GetComponent<Rigidbody>().useGravity = true;
+                    print("run" + i);
+                }
+                chickColl = false;
             }
         }
 
