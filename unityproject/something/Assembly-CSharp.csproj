@@ -63,6 +63,7 @@
     <Compile Include="Assets\scipts\PlayerMove.cs" />
     <Compile Include="Assets\scipts\Take.cs" />
     <Compile Include="Assets\scipts\CameraMove.cs" />
+    <Compile Include="Assets\scipts\rotation.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
