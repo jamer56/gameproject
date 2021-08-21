@@ -322,7 +322,6 @@
 "Assets/scipts/CameraMove.cs"
 "Assets/scipts/Gravity.cs"
 "Assets/scipts/PlayerMove.cs"
-"Assets/scipts/rotation.cs"
 "Assets/scipts/Take.cs"
 -langversion:8.0
 
