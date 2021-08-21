@@ -14,7 +14,7 @@ public class CameraMove : MonoBehaviour
     
     private void Start()
     {
-        mouseSensitivity = mainUI.dpiValue;
+        mouseSensitivity = options.dpiValue;
     }
 
     private void Update()
