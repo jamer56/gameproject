@@ -20,9 +20,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 908
+    x: 950
     y: 73
-    width: 531
+    width: 489
     height: 296
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []

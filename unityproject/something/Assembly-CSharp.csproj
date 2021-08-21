@@ -64,6 +64,9 @@
     <Compile Include="Assets\scripts\mainUI.cs" />
     <Compile Include="Assets\scripts\take.cs" />
     <Compile Include="Assets\scripts\CameraMove.cs" />
+    <Compile Include="Assets\scripts\ESCcallUI.cs" />
+    <Compile Include="Assets\scripts\options.cs" />
+    <Compile Include="Assets\scripts\loaslider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
