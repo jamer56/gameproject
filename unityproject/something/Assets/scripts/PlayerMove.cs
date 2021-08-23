@@ -59,12 +59,18 @@ public class PlayerMove : MonoBehaviour
             moveSpeed = 10;
         }
 
-        if (Input.GetKeyUp(KeyCode.LeftShift) && isGround)
+        if(Input.GetKeyUp(KeyCode.LeftShift) && isGround)
         {
             moveSpeed = 5;
         }
 
         velocity.y -= gravity * Time.deltaTime;
         cc.Move(velocity * Time.deltaTime);
+
+
+        if(this.transform.position.y < -30)
+        {
+            this.transform.position  = new Vector3(0,1,-10);
+        }
     }
 }
