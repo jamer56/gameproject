@@ -10,7 +10,7 @@
 
 ## Todo
 - [ ] 增加BGM
-- [ ] 增加能開得門測試
+- [ ] 增加能開的門 測試
 
 ## 如何下載
 前往 [release 頁面](https://github.com/jamer56/gameproject/releases) 下載。
