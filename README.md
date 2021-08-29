@@ -15,14 +15,14 @@
 新增日期↑ | 名稱
 
 新增
-
+  >- [ ] 20210830 垂直同步 [#6](https://github.com/jamer56/gameproject/issues/6)
   >- [ ] 20210830 鑰匙開門
   >- [ ] 20210830 旗幟
   >- [ ] 20210824 BGM
 
 修正
 
-  >- [ ] ?
+  >- [ ] 穿模 [#5](https://github.com/jamer56/gameproject/issues/5)
 
 ## 完成
 
