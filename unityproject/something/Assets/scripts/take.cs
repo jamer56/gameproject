@@ -11,6 +11,7 @@ public class take : MonoBehaviour
 
     private bool flag_clean_Gravity_one  =  false;
     private bool moveable =  false;
+    private string take_name="";
 
     void Start()
     {
@@ -26,6 +27,7 @@ public class take : MonoBehaviour
             flag_clean_Gravity_one = true;
             if (hit.transform.tag == "moveable" && Input.GetMouseButtonDown(0))
             {
+                take_name = hit.transform.name;
                 moveable  =  true;
             }
             if (hit.transform.tag != "moveable")
@@ -35,6 +37,10 @@ public class take : MonoBehaviour
             if (Input.GetMouseButtonUp(0))
             {
                 moveable =  false;
+            }
+            if (hit.transform.name != take_name)
+            {
+                moveable = false;
             }
             if (moveable && Input.GetMouseButton(0))
             {

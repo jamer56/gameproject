@@ -13,8 +13,102 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SimpleSelectedItems:
-    m_Keys: []
-    m_Values: 
+    m_Keys:
+    - .collabignore
+    - Assets/New Material.mat
+    - Assets/New Material.mat.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Game.meta
+    - Assets/Scenes/Game.unity
+    - Assets/Scenes/Game.unity.meta
+    - Assets/Scenes/Game/LightingData.asset
+    - Assets/Scenes/Game/LightingData.asset.meta
+    - Assets/Scenes/Game/ReflectionProbe-0.exr
+    - Assets/Scenes/Game/ReflectionProbe-0.exr.meta
+    - Assets/Scenes/options.unity
+    - Assets/Scenes/options.unity.meta
+    - Assets/__gawr_gura_hololive_and_1_more_drawn_by_san_ke_yue_shi__sample-5946a96b0b59a5896c4bd62480e110c8.jpg
+    - Assets/__gawr_gura_hololive_and_1_more_drawn_by_san_ke_yue_shi__sample-5946a96b0b59a5896c4bd62480e110c8.jpg.meta
+    - Assets/ba9b50fb-1efd-4854-928b-0b40ae26e36f_medium_thumb.jpg
+    - Assets/ba9b50fb-1efd-4854-928b-0b40ae26e36f_medium_thumb.jpg.meta
+    - Assets/hamer.fbx
+    - Assets/hamer.fbx.meta
+    - Assets/model.meta
+    - Assets/model/clock.meta
+    - Assets/model/clock/4549337330047_1260.jpg
+    - Assets/model/clock/4549337330047_1260.jpg.meta
+    - Assets/model/clock/clock.fbx
+    - Assets/model/clock/clock.fbx.meta
+    - Assets/model/clock/clock002.fbx
+    - Assets/model/clock/clock002.fbx.meta
+    - Assets/model/clock/clock003.fbx
+    - Assets/model/clock/clock003.fbx.meta
+    - Assets/model/door.meta
+    - Assets/model/door/test004.fbx
+    - Assets/model/door/test004.fbx.meta
+    - Assets/model/hamer.meta
+    - Assets/model/hamer/000000000016244576-gallery-01-20191202120838282.jpg
+    - Assets/model/hamer/000000000016244576-gallery-01-20191202120838282.jpg.meta
+    - Assets/model/hamer/hamer.fbx
+    - Assets/model/hamer/hamer.fbx.meta
+    - Assets/model/hamer/hamer002.fbx
+    - Assets/model/hamer/hamer002.fbx.meta
+    - Assets/model/hamer/hamer003.fbx
+    - Assets/model/hamer/hamer003.fbx.meta
+    - Assets/model/photo.meta
+    - Assets/model/photo/000000000016244576-gallery-01-20191202120838282.jpg
+    - Assets/model/photo/000000000016244576-gallery-01-20191202120838282.jpg.meta
+    - Assets/model/photo/illust_78127940_20200330_145754.png
+    - Assets/model/photo/illust_78127940_20200330_145754.png.meta
+    - Assets/model/photo/photo1.fbx
+    - Assets/model/photo/photo1.fbx.meta
+    - Assets/model/photo/photo2.fbx
+    - Assets/model/photo/photo2.fbx.meta
+    - Assets/model/photo/photo3.fbx
+    - Assets/model/photo/photo3.fbx.meta
+    - Assets/model/table.meta
+    - Assets/model/table/table.fbx
+    - Assets/model/table/table.fbx.meta
+    - Assets/scripts.meta
+    - Assets/scripts/CameraMove.cs
+    - Assets/scripts/CameraMove.cs.meta
+    - Assets/scripts/ESCcallUI.cs
+    - Assets/scripts/ESCcallUI.cs.meta
+    - Assets/scripts/PlayerMove.cs
+    - Assets/scripts/PlayerMove.cs.meta
+    - Assets/scripts/doorAnimetion.cs
+    - Assets/scripts/doorAnimetion.cs.meta
+    - Assets/scripts/mainUI.cs
+    - Assets/scripts/mainUI.cs.meta
+    - Assets/scripts/options.cs
+    - Assets/scripts/options.cs.meta
+    - Assets/scripts/take.cs
+    - Assets/scripts/take.cs.meta
+    - Assets/scripts/text.cs
+    - Assets/scripts/text.cs.meta
+    - Assets/table.fbx
+    - Assets/table.fbx.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 01010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
   RevisionSummary: 
   ChangesSearchValue: 
   SelectedHistoryRevision: 

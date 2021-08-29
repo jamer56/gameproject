@@ -15,6 +15,5 @@ public class text : MonoBehaviour
         {
             GameObject.Find("Canvas").transform.GetChild(1).gameObject.active = false;
         }
-        print(this.transform.position.y);
     }
 }

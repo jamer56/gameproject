@@ -320,13 +320,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/VSSettingsProvider.ref.dll"
 "Assets/scripts/CameraMove.cs"
+"Assets/scripts/doorAnimetion.cs"
 "Assets/scripts/ESCcallUI.cs"
 "Assets/scripts/mainUI.cs"
 "Assets/scripts/options.cs"
 "Assets/scripts/PlayerMove.cs"
 "Assets/scripts/take.cs"
 "Assets/scripts/text.cs"
-"Assets/scripts/textAct.cs"
 -langversion:8.0
 
 /deterministic
