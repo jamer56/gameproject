@@ -7,16 +7,29 @@
 <a href="https://github.com/jamer56/gameproject"><img src="https://img.shields.io/github/repo-size/jamer56/gameproject?label=%E5%B0%88%E6%A1%88%E5%A4%A7%E5%B0%8F"><br></a>
 <a href="https://github.com/jamer56/gameproject"><img src="https://img.shields.io/github/languages/code-size/jamer56/gameproject?label=%E4%BB%A3%E7%A2%BC%E5%A4%A7%E5%B0%8F"><br></a>
 
-## Todo
-新增日期↑ | 名稱
-- [ ] 20210830 添加鑰匙開門
-- [ ] 20210830 添加布
-- [ ] 20210824 增加BGM
-
-## 完成
-新增日期 | 完成日期↑ | 名稱
-- [x] 20210824 20210830 增加能開的門 測試
-
-
 ## 如何下載
 前往 [release 頁面](https://github.com/jamer56/gameproject/releases) 下載。
+
+## Todo
+
+新增日期↑ | 名稱
+新增
+
+  >- [ ] 20210830 添加鑰匙開門
+  >- [ ] 20210830 添加布
+  >- [ ] 20210824 增加BGM
+
+修正
+
+  >- [ ] ?
+
+## 完成
+
+新增日期 | 完成日期↑ | 名稱
+新增
+
+  >- [x] 20210824 20210830 增加能開的門 測試
+
+修正
+
+  >- [ ] ?
