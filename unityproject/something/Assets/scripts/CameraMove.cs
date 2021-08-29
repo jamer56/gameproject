@@ -14,6 +14,8 @@ public class CameraMove : MonoBehaviour
     
     private void Start()
     {
+        QualitySettings.vSyncCount = 0;
+        Application.targetFrameRate = Screen.currentResolution.refreshRate;
         mouseSensitivity = options.dpiValue;
     }
 
