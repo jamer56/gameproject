@@ -23,6 +23,7 @@
 修正
 
   >- [ ] 穿模 [#5](https://github.com/jamer56/gameproject/issues/5)
+  >- [ ] 畫卡地板 [#7](https://github.com/jamer56/gameproject/issues/5)
 
 ## 完成
 
