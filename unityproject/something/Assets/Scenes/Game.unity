@@ -262,7 +262,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f82bd061a4511cb428fd50e828754ed9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addForce: {x: 100, y: 30, z: 100}
+  addForce: {x: 40, y: 30, z: 40}
+  maxdistance: 0.75
 --- !u!114 &29992634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -986,6 +987,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   addForce: {x: 0, y: 0, z: 0}
+  maxdistance: 0
 --- !u!1 &1030798804
 GameObject:
   m_ObjectHideFlags: 0

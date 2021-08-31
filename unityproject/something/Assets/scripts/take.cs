@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -13,10 +14,13 @@ public class take : MonoBehaviour
     private bool flag_clean_Gravity_one  =  false;
     private bool moveable =  false;
     private string take_name="";
+
+
     public Vector3 addForce; //Õ{ÕûÁ¦¶È
+    public float maxdistance;
     void Start()
     {
-
+        
     }
 
     void Update()
@@ -34,30 +38,46 @@ public class take : MonoBehaviour
             }
             if (hit.transform.tag != "moveable")
             {
-                moveable = false;
+                //moveable = false;
             }
-            if (Input.GetMouseButtonUp(0))
-            {
-                moveable =  false;
-            }
+
             
             if (hit.transform.name != take_name)
             {
-                moveable = false;
+                //moveable = false;
             }
-            if (moveable && Input.GetMouseButton(0))
+
+        }
+        else
+        {
+            //moveable  =  false;
+        }
+
+        if (Input.GetMouseButtonUp(0))
+        {
+            moveable = false;
+        }
+
+        if (moveable && Input.GetMouseButton(0))
+        {
+            GameObject.Find(take_name).GetComponent<Rigidbody>().useGravity = false;
+            posdelta = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1.5f)) - GameObject.Find(take_name).transform.position;
+            if (Mathf.Abs(posdelta.x) < maxdistance && Mathf.Abs(posdelta.y) < maxdistance && Mathf.Abs(posdelta.z) < maxdistance)
             {
-                hit.rigidbody.useGravity = false;
-                posdelta = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1.5f)) - hit.transform.position;
                 //hit.rigidbody.AddForce(posdelta.x*addForce.x,posdelta.y*addForce.y,posdelta.z*addForce.z);
                 GameObject.Find(take_name).GetComponent<Rigidbody>().AddForce(posdelta.x * addForce.x, posdelta.y * addForce.y, posdelta.z * addForce.z);
                 //hit.transform.position = Camera.main.ScreenToWorldPoint(new Vector3(Input.mousePosition.x, Input.mousePosition.y, 1.5f));
             }
+            else
+            {
+                Debug.Log("tooFast");
+                moveable = false;
+            }
+            
         }
-        else
-        {
-            moveable  =  false;
-        }
+
+
+
         if (moveable != true && flag_clean_Gravity_one)
         {
             CleanUseGravity();
