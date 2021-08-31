@@ -7,7 +7,7 @@ public class ESCcallUI : MonoBehaviour
 { 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape))
+        if(Input.GetKeyDown(KeyCode.KeypadMinus))
         {
             SceneManager.LoadScene(0);
             Cursor.visible = true;

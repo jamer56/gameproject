@@ -35,6 +35,6 @@ public class doorAnimetion : MonoBehaviour
             isopen = false;
             flagOne = false;
         }
-        Debug.Log(doorAnimation[AnimationName].time);
+        //Debug.Log(doorAnimation[AnimationName].time);
     }
 }
